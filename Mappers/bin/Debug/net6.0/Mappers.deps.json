@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Mappers/1.0.0": {
+        "dependencies": {
+          "DTOs": "1.0.0",
+          "SistemaGestionEntities": "1.0.0"
+        },
+        "runtime": {
+          "Mappers.dll": {}
+        }
+      },
+      "DTOs/1.0.0": {
+        "runtime": {
+          "DTOs.dll": {}
+        }
+      },
+      "SistemaGestionEntities/1.0.0": {
+        "runtime": {
+          "SistemaGestionEntities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mappers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DTOs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SistemaGestionEntities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\WebAPISistemaGestion\\WebAPISistemaGestion.csproj": {}
+  },
+  "projects": {
+    "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\DTOs\\DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\DTOs\\DTOs.csproj",
+        "projectName": "DTOs",
+        "projectPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\DTOs\\DTOs.csproj",
+        "packagesPath": "C:\\Users\\RomeroRodriguezCarlo\\.nuget\\packages\\",
+        "outputPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RomeroRodriguezCarlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\Mappers\\Mappers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\Mappers\\Mappers.csproj",
+        "projectName": "Mappers",
+        "projectPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\Mappers\\Mappers.csproj",
+        "packagesPath": "C:\\Users\\RomeroRodriguezCarlo\\.nuget\\packages\\",
+        "outputPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\Mappers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RomeroRodriguezCarlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\DTOs\\DTOs.csproj"
+              },
+              "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionEntities\\SistemaGestionEntities.csproj": {
+                "projectPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionEntities\\SistemaGestionEntities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionBussines\\SistemaGestionBussines.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionBussines\\SistemaGestionBussines.csproj",
+        "projectName": "SistemaGestionBussines",
+        "projectPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionBussines\\SistemaGestionBussines.csproj",
+        "packagesPath": "C:\\Users\\RomeroRodriguezCarlo\\.nuget\\packages\\",
+        "outputPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionBussines\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RomeroRodriguezCarlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\DTOs\\DTOs.csproj"
+              },
+              "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\Mappers\\Mappers.csproj": {
+                "projectPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\Mappers\\Mappers.csproj"
+              },
+              "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionData\\SistemaGestionData.csproj": {
+                "projectPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionData\\SistemaGestionData.csproj"
+              },
+              "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionEntities\\SistemaGestionEntities.csproj": {
+                "projectPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionEntities\\SistemaGestionEntities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionData\\SistemaGestionData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionData\\SistemaGestionData.csproj",
+        "projectName": "SistemaGestionData",
+        "projectPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionData\\SistemaGestionData.csproj",
+        "packagesPath": "C:\\Users\\RomeroRodriguezCarlo\\.nuget\\packages\\",
+        "outputPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionData\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RomeroRodriguezCarlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\DTOs\\DTOs.csproj"
+              },
+              "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionEntities\\SistemaGestionEntities.csproj": {
+                "projectPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionEntities\\SistemaGestionEntities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionEntities\\SistemaGestionEntities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
+        "projectName": "SistemaGestionEntities",
+        "projectPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
+        "packagesPath": "C:\\Users\\RomeroRodriguezCarlo\\.nuget\\packages\\",
+        "outputPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionEntities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RomeroRodriguezCarlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\WebAPISistemaGestion\\WebAPISistemaGestion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\WebAPISistemaGestion\\WebAPISistemaGestion.csproj",
+        "projectName": "WebAPISistemaGestion",
+        "projectPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\WebAPISistemaGestion\\WebAPISistemaGestion.csproj",
+        "packagesPath": "C:\\Users\\RomeroRodriguezCarlo\\.nuget\\packages\\",
+        "outputPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\WebAPISistemaGestion\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RomeroRodriguezCarlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\DTOs\\DTOs.csproj"
+              },
+              "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionBussines\\SistemaGestionBussines.csproj": {
+                "projectPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionBussines\\SistemaGestionBussines.csproj"
+              },
+              "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionEntities\\SistemaGestionEntities.csproj": {
+                "projectPath": "C:\\C#\\proyectos\\CursoCsharp\\WebAPISistemaGestion2\\SistemaGestionEntities\\SistemaGestionEntities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
